@@ -24,7 +24,7 @@ export default defineConfig(({ command, mode }) => {
       port: 5173,
       proxy: {
         "/api": {
-          target: "http://localhost:5000",
+          target: "https://pizza-hub-chi.vercel.app/",
           changeOrigin: true,
         },
       },
