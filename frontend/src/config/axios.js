@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with custom config
 const instance = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://pizza-hub-chi.vercel.app/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json'
